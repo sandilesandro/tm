@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Titillium Web", sans-serif;
+  overflow-x: hidden;
+}
+.showcase {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 2.1875rem;
+  font-weight: 600;
+  color: white;
+}
+
+h2,
+h3,
+h4 {
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: white;
+}
+
+p {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+#main-showcase {
+  background: url("./img/bg.jpg") center center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.dark-overlay {
+  position: cover;
+  background-color: rgba(21, 21, 21, 0.6);
+  height: 100vh;
+  width: 100%;
+}
+
+.dark-overlay-2 {
+  position: cover;
+  background-color: rgba(21, 21, 21, 0.9);
+  height: 100vh;
+  width: 100%;
+}
+
+/* Background */
+#contact {
+  background: url("./img/flowers.png") center center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Social Media */
+i {
+  color: white;
+  font-size: smaller;
+}
+
+.social-media a {
+  font-size: 9px;
+}
+
+.social-media i.fa-facebook:hover {
+  color: #4267b2;
+}
+
+.social-media i.fa-instagram:hover {
+  color: #f56040;
+}
+
+.social-media i.fa-youtube:hover {
+  color: #ff0000;
+}
+
+.social-media i.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.back-top {
+  position: absolute;
+  font-size: 36px;
+  top: 5100px;
+  height: 50px;
+  width: 50px;
+  right: 10px;
+}
